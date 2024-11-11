@@ -1,0 +1,83 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'roboto', sans-serif;
+}
+/*Elements*/
+body {
+  background-color: #404EED;
+  color: white;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 25px;
+}
+
+nav img {
+  width: fit-content;
+  height: 20px;
+  display: block;
+}
+
+section{
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  margin: 45px 0 0 20px
+}
+
+
+section h1{
+  font-size: 3.8rem;
+  margin: 0 0 20px 0;
+  font-family: 'poppins';
+  width: 30%;
+  font-weight: 900;
+  line-height: 0.9;
+}
+
+
+section p{
+  font-size: 1.1rem;
+  width: 37%;
+  margin: 0 0 12px 0;
+  line-height: 25px;
+}
+
+section button{
+  padding: 10px 0;
+  margin: 10px 0;
+  border: none;
+  border-radius: 30px;
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+
+
+/*ids*/
+#mac-button{
+  background-color: white;
+  color: black;
+  width: 20%;
+}
+
+#window-button{
+  background-color: black;
+  color: white;
+  width: 25%;
+}
+
+
+ #friends{
+  width: fit-content;
+  height: fit-content;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+}
