@@ -1,4 +1,4 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -6,7 +6,7 @@
 }
 /*Elements*/
 body {
-  background-color: #404EED;
+  background-color: #404eed;
   color: white;
   display: flex;
   justify-content: center;
@@ -25,32 +25,30 @@ nav img {
   display: block;
 }
 
-section{
+section {
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
-  margin: 45px 0 0 20px
+  margin: 45px 0 0 20px;
 }
 
-
-section h1{
+section h1 {
   font-size: 3.8rem;
   margin: 0 0 20px 0;
-  font-family: 'poppins';
+  font-family: 'poppins', sans-serif;
   width: 30%;
   font-weight: 900;
   line-height: 0.9;
 }
 
-
-section p{
+section p {
   font-size: 1.1rem;
   width: 37%;
   margin: 0 0 12px 0;
   line-height: 25px;
 }
 
-section button{
+section button {
   padding: 10px 0;
   margin: 10px 0;
   border: none;
@@ -59,22 +57,20 @@ section button{
   cursor: pointer;
 }
 
-
 /*ids*/
-#mac-button{
+#mac-button {
   background-color: white;
   color: black;
   width: 20%;
 }
 
-#window-button{
+#window-button {
   background-color: black;
   color: white;
   width: 25%;
 }
 
-
- #friends{
+#friends {
   width: fit-content;
   height: fit-content;
   position: fixed;
